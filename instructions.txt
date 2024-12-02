@@ -1,0 +1,28 @@
+Installing on Windows
+
+Note
+Administrator privileges will be required for some of these steps.
+
+You must install the following for Windows:
+
+Python 64-bit       https://www.python.org/downloads/
+
+Tesseract 64-bit    https://sourceforge.net/projects/tesseract-ocr.mirror/
+
+Ghostscript 64-bit  https://ghostscript.com/releases/gsdnld.html
+
+all above three should be in system variable path. google if you don't know about it.
+
+There should be all_pdf folder in the script directory and all scanned pdf you want to get processed should be in this folder.
+
+Make sure you have python3 installed and in the path. 
+
+go to the zip file provided, extract it and go to the extracted folder. Write cmd on address bar and hit enter.
+
+write       pip install -r requirements.txt           this line and it will install all the required libraries. 
+
+then write      python pdf_scraper.py           it will run the script and it will first make all the pdf into system readable pdf in OCR_Document folder. 
+then it will read the files from OCR_Documents folder and gives you the excel file named as code_enforcement_data.xlsx. 
+
+For more details please contact developer at whatsapp +923312378492
+
